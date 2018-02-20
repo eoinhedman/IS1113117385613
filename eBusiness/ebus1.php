@@ -17,57 +17,66 @@
         
         <br/>
         
-        <form method="POST" action="ebus2.php"></form>
-        
-        <label for="Salesforce">
+      <br/>
+            
+            <form method="post" name ="form1" action="ebus2".pho  >
+            
+			<h4>Select a Product</h4>
+            <label for ="salesforce">
             <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-            Salesforce @ $100
-        </label>
-
-        <br/>
-       
-       <label for="Amazon Web Service">
+            salesforce @ $100
+            </label>
+            
+            <br/>
+            
+			<label for ="cloud">
+            <input type="radio" id="cloud" name="product" onClick="disablebtnProceed()"/>
+            cloud 9 @ $200
+            </label>    
+            
+            <br/>
+			
+			<label for ="aws">
             <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-            Amazon Web Server @ $300
-        </label>
-        
-        <br/>
-       
-       <label for="Cloud 9">
-            <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
-            Cloud 9 @ $200
-        </label>
-        
-        <br/>
-       
-       <label for="Gmail">
+            Amazon Web Service WS @ $300
+            </label>  
+			
+			<br/>
+			
+			<label for ="gmail">
             <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
-            Gmail @ $400
-        </label>
-        
-        <br/>
-        <br/>
-        
-        <label for="Subtotal">
-            Sub Total
-            <input type="Text" id="subtotal" value="0.00" readonly/>
-        </label>
-        
-        <br/>
-        
-        <label for="Total">
-            Total
-        <input type="Text" id="total" name="total" value="0.00" readonly/>
-        </label>
-        
-        <br/>
-        
-        <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-        
-        </form>
-        
-        <br/>
-        <button onClick="calcSub()">Calculate Cost</button>
+            gmail @ $400
+            </label>   
+			
+			<br/>
+            <br/>
+            
+             <table align ="center">
+        <tr>
+            <td><label for="subtotal"> Sub Total </label></td>
+            <td><input type="text" id="subtotal" value="0.00" readonly/></td>
+        </tr>
+         <tr>
+            <td><label for="dis"> Discount </label></td>
+            <td>  <input type="text" id="dis" value="0.00" readonly/>         </td>
+        </tr>
+        <tr>
+        <td><label for="vat">vat</label></td> 
+          
+        <td><input type="text" id="vat"  value="0.00" readonly/>             </td>
+        </tr>
+         <tr>
+         <td><label for="total">Total</label></td>
+         <td><input type="text" id="total" name="total" value="0.00" readonly/></td>
+        </tr>
+        <tr>
+            <td> <button type="submit" id="btnproceed" disabled>add  to shopping cart</button></td>
+        </tr>
+		</table>
+		
+            </form>
+            <br/>
+			 <button onclick="calcSub()">Calculate Cost</button>
         <a role="button" href="eBus1.php">ClearChoice</a>
         
     </body>
