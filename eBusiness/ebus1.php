@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Select Product</title>
+        <title>Select A Cloud Product!</title>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
         
         <!--jQuery-->
@@ -13,7 +13,8 @@
           <div id="header">
                 <h3>Cloud Server Products</h3>
             </div>
-        <h4>Select a Product</h4>
+            
+        <h4>Products</h4>
         
         <br/>
         
@@ -21,17 +22,17 @@
             
             <form method="post" name ="form1" action="ebus2".pho  >
             
-			<h4>Select a Product</h4>
+			<h4>Cloud Products</h4>
             <label for ="salesforce">
             <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-            salesforce @ $100
+            Salesforce @ $100
             </label>
             
             <br/>
             
 			<label for ="cloud">
             <input type="radio" id="cloud" name="product" onClick="disablebtnProceed()"/>
-            cloud 9 @ $200
+            Cloud9 @ $200
             </label>    
             
             <br/>
@@ -45,7 +46,7 @@
 			
 			<label for ="gmail">
             <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
-            gmail @ $400
+            Gmail @ $400
             </label>   
 			
 			<br/>

@@ -17,42 +17,42 @@ function calcSub(){
         argSubTotal = 400;
     }
     
-	calcTotal(argSubTotal);
+	Total(argSubTotal);
     display(argSubTotal);
     vat1(argSubTotal);
-    dis1(argSubTotal);
+    discount1(argSubTotal);
 }
-function dis1(dis2){
+function discount1(disP){
 
-var	dis3 = (dis2 * 0.05);
+var	disP2 = (disP * 0.05);
 	
-	document.getElementById("dis").value = dis3;
-}
-
-
-function vat1(vat2){
-	
-	var vat4;
-	
-	
-	vat4 = (vat2 * 0.05)
-
-var	vat3 = ((vat2 - vat4 )* 0.10);
-	
-	
-	document.getElementById("vat").value = vat3;
-	
+	document.getElementById("dis").value = disP2;
 }
 
-function calcTotal(parmtotal){
 
-var	disTotal = (parmtotal * 0.05)
+function vat1(vatP){
 	
-var	vatTotal = ((parmtotal - disTotal)* 0.10);
 	
-var	totalAmount = (vatTotal  + parmtotal - disTotal )
+	
+	
+var	vatP2 = (vatP * 0.05)
 
-	 document.getElementById("total").value = totalAmount;
+var	vatP3 = ((vatP - vatP2 )* 0.10);
+	
+	
+	document.getElementById("vat").value = vatP3;
+	
+}
+
+function Total(totalp){ 
+
+var	discountP = (totalp * 0.05)
+	
+var	vatTotal = ((totalp - discountP)* 0.10);
+	
+var	totalA = (vatTotal  - discountP + totalp)
+
+	 document.getElementById("total").value = totalA;
 }
 
 
