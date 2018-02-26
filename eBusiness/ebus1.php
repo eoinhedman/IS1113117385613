@@ -20,7 +20,7 @@
         
       <br/>
             
-            <form method="post" name ="form1" action="ebus2".pho  >
+            <form method="post" name ="form1" action="ebus2.php"  >
             
 			<h4>Cloud Products</h4>
             <label for ="salesforce">
@@ -51,29 +51,25 @@
 			
 			<br/>
             <br/>
-            
-             <table align ="center">
-        <tr>
-            <td><label for="subtotal"> Sub Total </label></td>
-            <td><input type="text" id="subtotal" value="0.00" readonly/></td>
-        </tr>
-         <tr>
-            <td><label for="dis"> Discount </label></td>
-            <td>  <input type="text" id="dis" value="0.00" readonly/>         </td>
-        </tr>
-        <tr>
-        <td><label for="vat">vat</label></td> 
-          
-        <td><input type="text" id="vat"  value="0.00" readonly/>             </td>
-        </tr>
-         <tr>
-         <td><label for="total">Total</label></td>
-         <td><input type="text" id="total" name="total" value="0.00" readonly/></td>
-        </tr>
-        <tr>
-            <td> <button type="submit" id="btnproceed" disabled>add  to shopping cart</button></td>
-        </tr>
-		</table>
+        
+        
+    <div>
+        <ul>
+            <li><label for="subtotal"> Sub Total </label></li>
+            <input type="text" id="subtotal" value="0.00" readonly/>
+
+            <li><label for="dis"> Discount </label></li>
+            <input type="text" id="dis" value="0.00" readonly/>         
+
+            <li><label for="vat">vat</label></li>
+            <input type="text" id="vat"  value="0.00" readonly/>             
+
+            <li><label for="total">Total</label></li>
+            <input type="text" id="total" name="total" value="0.00" readonly/>
+        </ul>
+    </div>
+
+            <button type="submit" id="btnproceed" disabled>add  to shopping cart</button>
 		
             </form>
             <br/>
