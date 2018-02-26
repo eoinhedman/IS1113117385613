@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html> 
+
     <head>
         <title>Select A Cloud Product!</title>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
@@ -7,8 +8,14 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-
+        
+        body  {
+            background-image: url("CV Pages/images/background-image.jpg");
+            background-color: #cccccc;
+            }
+        
     </head>
+    
         <div id="container">
           <div id="header">
                 <h3>Cloud Server Products</h3>
@@ -17,8 +24,7 @@
         <h4>Products</h4>
         
         <br/>
-        
-      <br/>
+        <br/>
             
             <form method="post" name ="form1" action="ebus2.php"  >
             

@@ -13,6 +13,11 @@ session_start();
         
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css">
     </head>
+    
+         <div id="container">
+            <div id="header">
+                <h3>Enter your details</h3>
+            </div>
     <body>
         <h4>Please enter your payment details</h4>
         
