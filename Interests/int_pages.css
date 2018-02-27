@@ -1,12 +1,15 @@
 #section1{
+    background-image: url("../CV Pages/images/oldtown.jpg");
     background-color: rgb(238, 0, 90);
 }
 
 #section2{
+    background-image: url("../CV Pages/images/Berlin.jpg");
     background-color: rgb(44, 62, 80);
 }
 
 #section3{
+    background-image: url("../CV Pages/images/cze.jpg");
     background-color: rgb(51, 153, 204);
 }
 

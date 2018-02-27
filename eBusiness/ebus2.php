@@ -11,6 +11,13 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="eBus2_validator.js"></script>
         
+          <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css">
     </head>
     
@@ -37,12 +44,12 @@ session_start();
                 </ul>
             </div>
 
-                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+                <button type="submit" id="btnPurchase" class="btn btn-success"disabled>Proceed with Purchase</button>
               
             </form>
             
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            <button onClick="validateDetails()" class="btn btn-primary">Validate</button>
 
             <?php
             // Set session variables

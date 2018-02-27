@@ -8,7 +8,13 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-
+        
+        
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
     </head>
     
@@ -71,11 +77,11 @@
         </ul>
     </div>
 
-            <button type="submit" id="btnproceed" disabled>add  to shopping cart</button>
+            <button type="submit" id="btnproceed" class="btn btn-success"disabled>add  to shopping cart</button>
 		
             </form>
             <br/>
-			 <button onclick="calcSub()">Calculate Cost</button>
+			 <button onclick="calcSub()" class="btn btn-primary">Calculate Cost</button>
         <a role="button" href="eBus1.php">ClearChoice</a>
         
     </body>
