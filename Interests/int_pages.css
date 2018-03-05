@@ -12,6 +12,34 @@
     background-image: url("../CV Pages/images/cze.jpg");
     background-color: rgb(51, 153, 204);
 }
+#section4{
+    background-image: url("../CV Pages/images/Swimming.jpg");
+    background-color: rgb(238, 0, 90);
+}
+
+#section5{
+    background-image: url("../CV Pages/images/swimpic.jpg");
+    background-color: rgb(44, 62, 80);
+}
+
+#section6{
+    background-image: url("../CV Pages/images/tennis.jpg");
+    background-color: rgb(51, 153, 204);
+}
+#section7{
+    background-image: url("../CV Pages/images/googledrive.jpg");
+    background-color: rgb(238, 0, 90);
+}
+
+#section8{
+    background-image: url("../CV Pages/images/cloud9.png");
+    background-color: rgb(44, 62, 80);
+}
+
+#section9{
+    background-image: url("../CV Pages/images/github.png");
+    background-color: rgb(51, 153, 204);
+}
 
 .section{
     text-align: center;
