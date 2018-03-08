@@ -10,7 +10,7 @@ session_start();
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
     </head>
     
-            <div id="container">
+        <div id="container">
             <div id="header">
                 <h3>Thank you for your purchase!</h3>
             </div>
@@ -20,11 +20,9 @@ session_start();
                 
         <?php
         // Echo session variables that were set on previous page.
-        
             echo "The total is $" . $_SESSION["total"] . ". <br/>";
             echo "Customer Name: " . $_POST["customername"] . ". <br/>";
             echo "Customer email address: " . $_POST["emailaddress"] . ". <br/>";
-
         ?>
     </body>
 </html>
